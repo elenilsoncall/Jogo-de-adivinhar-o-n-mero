@@ -35,7 +35,8 @@ function checarSuposicao() {
         ultimoResultado.textContent =' Fim do Jogo!!';
         definirGameOver();
      /* Outras condicionais para que o jogo continue até o jogador ganhar ou perder */   
-    } else{
+    } 
+    else{
         ultimoResultado.textContent = 'Errado!';
         ultimoResultado.style.backgroundcolor = 'red';
         if (usuarioAdivinha < randomNumber) {
